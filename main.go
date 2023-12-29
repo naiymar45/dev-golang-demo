@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"hellotest/testPrint2"
+)
 
 func printWelcome() {
 	fmt.Println("Hello, Go in CodeSandbox!")
@@ -8,4 +11,5 @@ func printWelcome() {
 
 func main() {
 	printWelcome()
+	testprint2.Print2()
 }
